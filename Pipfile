@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+djangorestframework = "*"
+django-cors-headers = "*"
+django-debug-toolbar = "*"
+python-dotenv = "*"
+django-split-settings = "*"
+whitenoise = "*"
+djangorestframework-api-key = "*"
+django-filter = "*"
+dynamic-rest = "*"
+djangorestframework-word-filter = "*"
+djangorestframework-jwt = "*"
+Django = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

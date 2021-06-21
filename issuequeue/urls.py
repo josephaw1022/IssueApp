@@ -28,10 +28,15 @@ urlpatterns = [
     # App Routes
     path('api/', include('apps.api.root.urls')),
     path('api/', include('apps.api.bug.urls')),
-    
+
+
+    # Create User
+    path('', include('apps.api.account.urls')),
+
 
     # JWT Token
     path('api-token-auth/', obtain_jwt_token),
     path('api-token-refresh/', refresh_jwt_token),
+
 
 ]
